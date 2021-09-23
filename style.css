@@ -48,7 +48,7 @@ nav {
   justify-content: center;
   align-items:center;
   height:100vh;
-  background: url('https://shoma-1125.github.io/it_univ_practice/at-4184276_1280.jpg') top center / cover no-repeat;
+  background-image: url('../images/cat-4184276_1280.jpg') top center / cover no-repeat;
 }
 
 .sp-nav {
