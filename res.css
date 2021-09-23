@@ -27,6 +27,10 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+  /*main*/
+  .main-visual {
+    width: 100%;
+  }
   img {
     width: 100%;
   }
