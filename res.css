@@ -35,9 +35,8 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    height:auto;
     background: url(https://github.com/Shoma-1125/it_univ_practice/blob/main/cat-4184276_1280.jpg?raw=true);
-    background-size:auto;
+    background-size:auto 600px;
   }
   img {
     width: 100%;
