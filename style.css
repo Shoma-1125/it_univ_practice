@@ -48,8 +48,7 @@ nav {
   justify-content: center;
   align-items:center;
   height:100vh;
-  background-image: url("https://github.com/Shoma-1125/it_univ_practice/blob/main/cat-4184276_1280.jpg?raw=true") top center / cover no-repeat;
-}
+  background-image: url(../images/constellations-2609647_1920.jpg);
 
 .sp-nav {
   display: none;
