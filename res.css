@@ -1,0 +1,275 @@
+@media (max-width:640px) {
+  p {
+    font-size: 12px;
+  }
+  /*ページ全体のパディング*/
+  .main-visual {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .aboutme-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .skills-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .works-wrappper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contact-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  img {
+    width: 100%;
+  }
+  section {
+    width:100%;
+    box-sizing: border-box;
+    color: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    padding:5%;
+  }
+  .box1 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/08/00/33/constellations-2609647_1280.jpg');
+    background-attachment: scroll;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  .box2 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/12/13/41/colorful-2137080_1280.jpg');
+    background-attachment: scroll;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  .box3 {
+      background-image: url('https://cdn.pixabay.com/photo/2017/06/14/16/20/network-2402637_1280.jpg');
+      background-attachment: scroll;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .box4 {
+      background-image: url('https://cdn.pixabay.com/photo/2018/03/27/21/43/startup-3267505_1280.jpg');
+      background-attachment: scroll;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .box5 {
+        background-image: url('https://cdn.pixabay.com/photo/2015/12/08/00/26/desk-1081708_1280.jpg');
+        background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+  }
+  .background-image {
+    width:100%;
+  }
+  .pc-nav {
+    display:none;
+  }
+  .sp-nav {
+    z-index:1;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    display: block;
+    width:100%;
+    background: rgba(0,0,0,.8);
+    transition:all .2s ease-in-out;
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  #hamburger {
+    position:relative;
+    display: block;
+    width:30px;
+    height:25px;
+    margin: 0 0 0 auto;
+  }
+  #hamburger span {
+    position: absolute;
+    top:50%;
+    left:0;
+    display:block;
+    width:100%;
+    height:2px;
+    background-color: #000;
+    transform: translateY(-50%);
+  }
+  #hamburger::before {
+    content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:2px;
+    background-color: #000;
+  }
+  #hamburger::after {
+    content:'';
+    display: block;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:70%;
+    height:2px;
+    background-color: #000;
+  }
+
+.sp-nav ul {
+  padding:0;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+}
+.sp-nav li {
+  margin: 0;
+  padding:0;
+}
+.sp-nav li span {
+  font-size: 20px;
+  color:#fff;
+}
+.sp-nav li a, .sp-nav li span {
+  display: block;
+  padding:20px 0;
+}
+
+.pc-nav li a {
+  padding: 0 .3em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(46, 204, 113, 1) 50%);
+  background-position: 0 0;
+  background-size: auto 200%;
+  transition: .3s;
+}
+.pc-nav li a:hover {
+  background-position: 0 100%;
+  color: #fff;
+}
+
+.sp-nav .close {
+  position: relative;
+  padding-left:20px;
+}
+.sp-nav .close::before {
+  content:'';
+  position: absolute;
+  top:50%;
+  left:0;
+  display:block;
+  width:16px;
+  height:1px;
+  background: #000;
+  transform:rotate(45deg);
+}
+.sp-nav .close::after {
+  content:'';
+  position: absolute;
+  top:50%;
+  left:0;
+  display:block;
+  width:16px;
+  height:1px;
+  background: #000;
+  transform:rotate(-45deg);
+}
+.toggle {
+  transform: translateY(0);
+  opacity:1;
+}
+.main-visual {
+  padding:0 4%;
+}
+h2 {
+  line-height:1.6;
+  text-align: center;
+  font-size: 30px;
+}
+.skills-contents {
+  text-align: center;
+  display: block;
+}
+.skills-contents i {
+  font-size:7em;
+}
+.service-wrapper {
+  width: 100%;
+}
+section  {
+  width: 100%;
+}
+.service-contents {
+  display:block;
+}
+.works-box {
+  display:block;
+}
+h3 {
+  font-size: 20px;
+}
+#animation {
+  font-size: 25px;
+}
+.title {
+  display: flex;
+  overflow: hidden;
+  color: #aa8f7b;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 30px;
+}
+/*skill*/
+/*about*/
+.intro-box {
+  padding:1em 2em;
+  margin: 2em 0;
+  color:#fff;
+  background: #000;
+  border-bottom: solid 6px #808080;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+  border-radius: 9px;
+  text-align:left;
+}
+.aboutme-contents img {
+  text-align: center;
+  width:150px;
+  height:150px;
+  object-fit:cover;
+  border-radius: 50%;
+}
+/*service*/
+.service-contents img {
+  margin-top: 20px;
+  width:150px;
+  height:150px;
+  object-fit:cover;
+  border-radius: 50%;
+  text-align:center;
+}
+/*contact*/
+.low-box h3 {
+  font-size: 15px;
+}
+/*footer*/
+.footer p {
+  font-size: 10px;
+}
+}

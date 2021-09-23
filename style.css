@@ -1,0 +1,426 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+   margin: 0;
+   padding: 0;
+  font-family: 'Noto Serif JP', serif;
+   background-color: #e6e6e6;
+}
+h2,h3,p,a {
+  color: #fff;
+}
+header {
+    width: 100%;
+    padding:30px 4% 10px;
+    background-color: #fff;
+    position: fixed;
+    top:0;
+    background-color: #fff;
+    display:flex;
+    align-items: center;
+    z-index: 500;
+}
+h1 {
+  color: #000;
+  margin: 0; padding:0;
+  font-size: 25px;
+}
+a{
+  text-decoration: none;
+  color: #4b4b4b;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  display:flex;
+}
+li {
+  margin: 0 0 0 15px;
+  font-size:14px;
+}
+nav {
+  margin:0 0 0 auto;
+}
+.main-visual {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height:100vh;
+  background: url('../images/cat-4184276_1280.jpg') top center / cover no-repeat;
+}
+
+.sp-nav {
+  display: none;
+}
+section {
+  width:100%;
+  box-sizing: border-box;
+  color: #fff;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+  padding:5%;
+}
+.box1 {
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/08/00/33/constellations-2609647_1280.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.aboutme-wrapper {
+  text-align: center;
+}
+.aboutme-contents img {
+  text-align: center;
+  width:300px;
+  height:300px;
+  object-fit:cover;
+  border-radius: 50%;
+}
+h2 {
+  font-size: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+.intro-contents {
+  padding-bottom: 50px;
+}
+.intro-box {
+  padding:1em 2em;
+  margin: 2em 0;
+  color:#fff;
+  background: #000;
+  border-bottom: solid 6px #808080;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+  border-radius: 9px;
+  text-align:left;
+}
+.education-box {
+  padding:1em 2em;
+  margin: 2em 0;
+  color:#fff;
+  background: #000;
+  border-bottom: solid 6px #808080;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+  border-radius: 9px;
+  text-align:center;
+  }
+.box2 {
+  background-image: url('https://cdn.pixabay.com/photo/2017/03/12/13/41/colorful-2137080_1280.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.box2 i {
+  font-size: 10em;
+  padding-right: 30px;
+}
+.size1 {
+  color: #ff6600;
+}
+.size1 {
+  text-shadow:0 0 5px #000
+}
+.size2 {
+  color:#0066cc;
+  text-shadow:0 0 5px #000
+}
+.size3 {
+  color: #ffcc00;
+  text-shadow:0 0 5px #000
+}
+.size4 {
+  color:#ccffff;
+  text-shadow:0 0 5px #000
+}
+.size5 {
+  color:#ff77ff;
+  text-shadow:0 0 5px #000
+}
+.box3 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/06/14/16/20/network-2402637_1280.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.service-wrapper {
+  width: 80%;
+  text-align: center;
+}
+.service-contents {
+  display:flex;
+}
+.service-contents img {
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius: 50%;
+    text-align:center;
+}
+h4 {
+  text-align: center;
+}
+.service-box {
+  padding-right: 10px;
+}
+.service-box{
+  padding:1em 2em;
+  color:#fff;
+  background: #000;
+  border-bottom: solid 6px #808080;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+  border-radius: 9px;
+  text-align:center;
+}
+.box4 {
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/27/21/43/startup-3267505_1280.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.works-contents img {
+  width:480px;
+  height:300px;
+  padding-right: 20px;
+}
+.works-contents {
+  width: 480px;
+  height:300px;
+  overflow: hidden;
+  margin: 10px 8px 10px 16px;
+  position: relative;
+}
+.works-contents .caption {
+  width:100%;
+  height:100%;
+  visibility:hidden;
+  font-size: 130%;
+  position: absolute;
+  top:0;
+  left:0;
+  text-align: center;
+  -webkit-transition: all 0.4s step-end;
+  transition: all 0.4s step-end;
+}
+.works-contents:hover .caption {
+  visibility: visible;
+}
+.works-contents .caption p {
+  font-size: 20px;
+  padding-top: 75px;
+  color:#fff;
+  opacity:0;
+}
+.works-contents:hover .caption p {
+  opacity:1;
+}
+.works-contents .mask1, .works-contents .mask2 {
+  width:50%;
+  height:100%;
+  position:absolute;
+  top:0;
+  background-color: rgba(0,0,0,0.4);
+  -webkit-transition:all 0.8s ease;
+  transition:all 0.8s ease;
+}
+.works-contents .mask1 {
+  left:-50%;
+}
+.works-contents:hover .mask1 {
+  left:0px;
+}
+.works-contents .mask2 {
+  right:-50%;
+}
+.works-contents:hover .mask2 {
+  right:0px;
+}
+.works-contents p {
+  font-size: 30px;
+}
+.works-box {
+  display: flex;
+}
+.box5 {
+      background-image: url('https://cdn.pixabay.com/photo/2015/12/08/00/26/desk-1081708_1280.jpg');
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+.box5 {
+  text-align: center;
+}
+.box5 p {
+  padding-top: 100px;
+  color: #000;
+}
+.box5 i {
+  font-size: 3em;
+  padding:0px 10px 5px 10px;
+}
+.low-box h2 {
+  color: #000;
+}
+.low-box h3 {
+  color:#000;
+}
+.size6 {
+  color: #ddd;
+  font-size: 2.5em;
+}
+.size6:hover {
+  background-color:#778899;
+  transition: .2s;
+}
+.size7 {
+  color:#fff;
+  font-size:2.5em;
+}
+.size7:hover {
+  background: linear-gradient(45deg, rgba(254,212,117,1) 0%,rgba(229,61,93,1) 50%,rgba(194,49,134,1) 70%,rgba(156,56,187,1) 100%);
+
+  display: inline-block;
+  font-weight: 400;
+
+  text-align: center;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+.size8 {
+  color:#fff;
+  font-size:2.5em;
+}
+.size8:hover {
+  background-color:#1da1f2;
+  transition:  .2s;
+}
+.wrap {
+  overflow: hidden;
+}
+.icon::before {
+  display: inline-block;
+  margin-right: .5em;
+  font-family: fontawesome;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#animation {
+margin: 50px 0;
+font-size: 50px;
+font-weight: bold;
+color: #fff;
+}
+
+.fadeInDown {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1s;
+ -ms-animation-duration:1s;
+ animation-duration:1s;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+ visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+.main-visual span {
+  color: #fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.title {
+  display: flex;
+  overflow: hidden;
+  color: #aa8f7b;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 80px;
+}
+
+.title span {
+  display: block;
+  transform: translate(0, 105%);
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+
+.title.-visible span {
+  transform: translate(0, 0);
+}
+
+.title span:nth-child(2) {
+  transition-delay: 0.06s;
+}
+.title span:nth-child(3) {
+  transition-delay: 0.12s;
+}
+.title span:nth-child(4) {
+  transition-delay: 0.18s;
+}
+.title span:nth-child(5) {
+  transition-delay: 0.24s;
+}
+.title span:nth-child(6) {
+  transition-delay: 0.30s;
+}
+.title span:nth-child(7) {
+  transition-delay: 0.36s;
+}
+.title span:nth-child(8) {
+  transition-delay: 0.42s;
+}
+.title span:nth-child(9) {
+  transition-delay: 0.48s;
+}
+.title span:nth-child(10) {
+  transition-delay: 0.54s;
+}
+.title span:nth-child(11) {
+  transition-delay: 0.6s;
+}
+.title span:nth-child(12) {
+  transition-delay: 0.66s;
+}
+.title span:nth-child(13) {
+  transition-delay: 0.72s;
+}
+.title span:nth-child(14) {
+  transition-delay: 0.78s;
+}
+
+
+@-webkit-keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+.fa-border {
+  background-color: #000;
+}
+
+.fa-border .size7:hover {
+  background-color: red;
+}
+
